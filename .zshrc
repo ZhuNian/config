@@ -53,7 +53,7 @@ plugins=(git autojump node npm gulp)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/zhunian/Documents/learning/shellScript"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,7 +83,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gpr="git pull --rebase"
-alias gp="git push origin master"
+alias gp="git push"
+alias gd="git push origin --delete"
+alias gm="git merge --no-ff"
 alias gsu="git submodule update"
 alias gst="git status"
 alias glog="git log"
